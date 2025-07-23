@@ -4,6 +4,13 @@
 
 1. Install uv, activate it, and add to path
 
+Linux:
+```bash
+pip install uv
+```
+
+Windows:
+Download binary, install and add to PATH
 
 2. Create virtual environment and activate it
 ```bash
