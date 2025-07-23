@@ -1,0 +1,20 @@
+{
+  "theme": "GitHub",
+  "mcpServers": {
+    "mainAPIServer": {
+      "command": "uv",
+      "args": ["run", "main.py", "stdio"]
+    }
+  },
+  "telemetry": {
+    "enabled": false
+  },
+  "usageStatisticsEnabled": true,
+  "hideTips": false,
+  "registries": {
+    "docker.io": {
+      "username": "${DOCKER_USERNAME}",
+      "pat": "${DOCKER_PAT}"
+    }
+  }
+}
