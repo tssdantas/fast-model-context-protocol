@@ -41,7 +41,7 @@ async def testDockerHubTool(session):
 
     # Run the docker image to get python version
     print("\nRunning docker image to get python version...")
-    run_result = await session.call_tool("run_docker_command", arguments={"command": "run --rm python:3.09-slim python --version"})
+    run_result = await session.call_tool("run_docker_command", arguments={"command": "run --rm python:3.8-slim python --version"})
     run_content = json.loads(run_result.content[0].text)
     if "error" in run_content:
         print(f"Error running image: {run_content['error']}\n{run_content.get('stderr', '')}")
