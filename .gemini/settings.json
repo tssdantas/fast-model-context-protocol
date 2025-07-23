@@ -2,8 +2,8 @@
   "theme": "GitHub",
   "mcpServers": {
     "mainAPIServer": {
-      "command": "python",
-      "args": ["main.py", "stdio"]
+      "command": "uv",
+      "args": ["run", "main.py", "stdio"]
     }
   },
   "telemetry": {
