@@ -17,7 +17,6 @@ activate mcp
 pip install -r requirements.txt
 ```
 
-
 ## Running the Server
 
 To run the server in SSE mode to connect via the network/internet:
