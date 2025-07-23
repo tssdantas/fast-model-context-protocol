@@ -2,19 +2,19 @@
 
 ## Setup Steps
 
-1. Install Miniconda, activate it
+1. Install uv, activate it, and add to path
 
 
 2. Create virtual environment and activate it
 ```bash
-conda create --name mcp python=3.12
-activate mcp
+uv venv
+.venv\Scripts\activate
 ```
 
 3. Install dependencies:
 
 ```bash
-pip install -r requirements.txt
+uv add -r requirements.txt
 ```
 
 ## Running local tests
@@ -24,11 +24,11 @@ No LLM will be used, this feature is designed for *demonstration & troubleshooti
 
 
 ```bash
-python main.py api
+uv run main.py api
 ```
 
 ```bash
-python main.py docker
+uv run main.py docker
 ```
 
 ## Running with Gemini CLI
@@ -59,12 +59,12 @@ The expected outputs can be found in the screenshots in /docs/gemini screenshots
 
 To run the server in SSE mode to connect via the network/internet:
 ```bash
-python main.py sse 
+uv run main.py sse 
 ```
 
 To run the server in STDIO mode to connect as localhost:
 ```bash
-python main.py stdio
+uv run main.py stdio
 ```
 
 
