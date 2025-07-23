@@ -2,15 +2,15 @@
 
 ## Setup Steps
 
-1. Install uv, activate it, and add to path
+1. Install uv 
 
-Linux:
+PyPI:
 ```bash
 pip install uv
 ```
 
-Windows:
-Download binary, install and add to PATH
+Github:
+[link](https://github.com/astral-sh/uv)
 
 2. Create virtual environment and activate it
 ```bash
