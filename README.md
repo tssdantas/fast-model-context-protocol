@@ -2,7 +2,7 @@
 
 ## Setup Steps
 
-1. Install uv 
+1. Install uv, a package and project mennager for Python from Github or from PyPI repository
 
 PyPI:
 ```bash
