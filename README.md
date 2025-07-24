@@ -2,7 +2,7 @@
 
 ## Setup Steps
 
-1. Install uv, a package and project menager for Python from Github or from PyPI repository
+1. Install UV, a package and project menager for Python from Github or from PyPI repository. UV is required to work correctly with Gemini CLI.
 
 Github: [link](https://github.com/astral-sh/uv)
 
