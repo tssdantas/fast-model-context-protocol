@@ -41,8 +41,11 @@ uv run main.py docker
 ## Running with Gemini CLI
 Gemini CLI is a command-line AI workflow tool that leverages the Gemini LLM model to respond to user queries.
 
-1. Install Gemini CLI from [this](https://github.com/google-gemini/gemini-cli) repository or with NPM
-2. Run this command in this project folder and it will automatically load the seetings in /.gemini
+1. Install Gemini CLI from [this](https://github.com/google-gemini/gemini-cli) repository or with NPM:
+```bash
+npm install -g @google/gemini-cli
+```
+3. Run this command in this project folder and it will automatically load the seetings in /.gemini
 ```bash
 gemini
 ```
