@@ -2,7 +2,7 @@
 
 ## Setup Steps
 
-1. Install UV, a package and project menager for Python from Github or from PyPI repository. UV is required to work correctly with Gemini CLI.
+1. Install UV, a package and project menager for Python from Github or PyPI. UV is required to work correctly with Gemini CLI.
 
 Github: [link](https://github.com/astral-sh/uv)
 
@@ -25,8 +25,7 @@ uv add -r requirements.txt
 
 ## Running local tests
 
-This feature will run the local client to acess the local server and execute one of the tools.
-No LLM will be used, this feature is designed for *demonstration & troubleshooting*
+This feature runs the local client against the local server and executes one of the tools automatically. No LLM is used, this is intended for demonstration and troubleshooting.
 
 
 ```bash
@@ -38,7 +37,8 @@ uv run main.py docker
 ```
 
 ## Running with Gemini CLI
-Gemini CLI is a command-line AI workflow tool that leverages the Gemini LLM model to respond to user queries.
+The Gemini CLI is a command‑line AI workflow tool that uses the Gemini LLM model to respond to your prompts.
+*Gemini will automatically detect and start the MCP server in the project directory*.
 
 1. Install Gemini CLI from [this](https://github.com/google-gemini/gemini-cli) repository or with NPM:
 ```bash
@@ -64,7 +64,7 @@ Use the mainAPIServer MCP to pull the python:3.9-slim image from Docker Hub and 
 
 The expected outputs can be found in the screenshots in /docs/gemini screenshots/
 
-## Running the Server 
+## Running the Server for other Clients 
 
 To run the server in SSE mode to connect via the network/internet:
 ```bash
