@@ -3,6 +3,7 @@
 ## Setup Steps
 
 1. Install uv, a package and project menager for Python from Github or from PyPI repository
+
 Github: [link](https://github.com/astral-sh/uv)
 
 PyPI:
